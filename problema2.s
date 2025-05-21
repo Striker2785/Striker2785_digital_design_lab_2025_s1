@@ -14,7 +14,8 @@ _start:
     BEQ     end
 
 loop:
-    MUL     R2, R2, R1
+    MOV     R3, R2       
+    MUL     R2, R3, R1   
     SUB     R1, R1, #1
     CMP     R1, #0
     BGT     loop
