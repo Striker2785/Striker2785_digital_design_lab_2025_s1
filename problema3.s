@@ -75,3 +75,4 @@ fin_iteracion:
 
 fin_programa:
     B       fin_programa      @ Bucle infinito
+	
